@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            *{
+                padding:0;margin:0
+            }
+            .p{
+                height:500px;
+                background:blue;
+                display: flex;
+                /* flex-direction 主轴上的方向  row column row-revese column-revese*/
+                flex-direction: row; 
+                 /* flex-direction: column-reverse;  */
+                /*  当子item很多时涉及到换行时 nowrap 不换行(item的宽度width失效) wrap换行显示 wrap-reverse 第二行在第一行上面 */
+                flex-wrap: wrap; 
+                /* 主轴上的对齐方式 flex-start flex-end center space-between(两端对齐，item之间的间距相等) space-around(所有项目的左右都留相同的间距)*/  
+                justify-content:center;
+                /* align-items 与justify-content 类似 作用在垂直方向的，轿车轴上的对齐方式 flex-end flex-start center */ 
+                align-items:center;
+                /* align-conent  在多个轴线情况下使用得很少*/
+            }
+            .c1{
+                width:200px;
+                height:200px;
+                background:red;
+            }
+            .c2{
+                width:200px;
+                height:200px;
+                background:yellow;
+            }
+            .c3{
+                width:200px;
+                height:200px;
+                background:green;
+            }
+
+            .p1{
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="p">
+            <div class="c1"><a href="https://www.cnblogs.com/xianxianxxx/p/8086554.html">利用弹性合模型来布局</a></div>
+            <div class="c2">sdsfsfsfsffesf</div>
+            <div class="c3">sfsfdfesefsee</div>
+        </div>
+        
+      
+
+        <script type="text/javascript">
+/**
+ * javascript 语言
+ */
+console.log('千里之行 始于足下')
+        </script>
+    </body>
+</html>
+
+
+
